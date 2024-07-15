@@ -1,0 +1,32 @@
+name: edf_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: 3.1.0
+  http: ^0.13.3
+  flutter_local_notifications: ^9.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/toulouse_logo.png
+    - assets/icon.png
+    - assets/logo_rodez.png
+    - assets/temps_jouer.png
+    - assets/rouge.png
+    - assets/jaune.png
+    - assets/but.png
+    - assets/passe.png
+
